@@ -1,0 +1,373 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body{
+  /* margin: 0; */
+  /* padding: 30px; */
+  background-color:white;
+}
+/* navigationnnn Barrrrr starts herre */
+
+.topnav {
+  /* position: fixed; */
+  /* overflow: hidden; */
+  background-color:#D60505;
+  width: 100%;
+  display: flex;
+  height: 100px;
+  /* margin-left: 5px; */
+
+  position: fixed;
+  /* padding-bottom: 20px; */
+  top: 0;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 1.5vw;
+margin-left: 30px;
+/* margin-right: 110px; */
+  /* position: relative; */
+}
+
+.topnav a:hover {
+  height: 10px;
+  background-color:#00003E;
+  color:white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.topnav a.active {
+  height: 10px;
+  background-color:#00003E;
+  color: white;
+  margin: 3px;
+} 
+
+.search{
+  margin-left: 50px;
+  width:300px;
+  height: 50px;
+  margin-top: 20px;
+
+}
+
+.search-icon{
+  height:50px;
+  /* width:100px; */
+  /* padding-top: 20px; */
+  background-color: #f2f2f2;
+}
+
+.search-icon-but{
+  height:55px;
+  background-color: #f2f2f2;
+  margin-top: 20px;
+}
+
+.login{
+  /* margin-left:40px; */
+  background: none;
+  display: flex;
+  border: none;
+  font-size: 1vw;
+  cursor: pointer;
+  margin-top: 25px;
+  /* margin-right: 60px; */
+  
+  /* color:#f2f2f2; */
+}
+
+
+.topnav .login:hover{
+  color:#FCF6F5;
+}
+
+.log-in{
+  display: flex;
+  /* margin-left: 40px; */
+}
+
+.log-in-img{
+  width:80px;
+  height: 80px;
+  margin-top: 5px;
+}
+
+.text-log-in{
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.admin-log-in{
+  font-size: 1vw;
+  font-weight: bold;
+  margin-left: 10px;
+  color:white;
+  font-stretch: expanded;
+}
+
+
+.nav-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: aqua; */
+  align-items: center;
+}
+
+a.work{
+  flex-direction: column;
+  text-align: center;
+  margin-top: 200px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sd-logo{
+width:100%;
+height:200px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#mySidepanel{
+  width:380px;
+  height: 800px;
+}
+.sidepanel  {
+ 
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 100px;
+  left: 0;
+  background-color:#D60505;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  color:#f1f1f1;
+  display: block;
+  transition: 0.3s;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sidepanel a:hover {
+  
+  background-color:#00003E;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: -80px;
+  right: 25px;
+  font-size: 36px;
+  background-color: #D60505;
+}
+
+.openbtn {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+  height: 80px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#00003E;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+ 
+ 
+  /* HOSPITAL REQUEST/DONOR ALLOCATION /TABLES STARTS HERE */
+
+ .blood-div{
+  padding-left: 30px;
+  /* background-color: #800020; */
+  /* display: block; */
+  /* margin-left: 800px; */
+  align-items: top;
+  width: 100%;
+  margin-top: 300px;
+  margin-left: 950px;
+}
+
+.titel{
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.decline-button{
+  width:280px;
+  font-size: 30px;
+  background-color: #0D445F;
+  color: #f2f2f2;
+  margin-top: 50px;
+}
+
+table,th ,td{
+  border:solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #D9D9D9;
+  /* border-color: #000000; */
+  /* border-style: ridge; */
+  /* padding-top: 100px; */
+  margin-top: 100px;
+  width:1800px;
+  height:100px;
+  font-size: 40px;
+  background-color: #D60505;
+  color: #FCF6F5;
+}
+
+.donor-text{
+  font-size: 40px;
+  font-weight: bold;
+  padding-top:20px;
+}
+
+.approve-button{
+  width:280px;
+  font-size: 30px;
+  background-color: #0D445F;
+  color: #f2f2f2; 
+  margin-top: 30px;
+}
+
+
+
+/* HOSPITAL REQUEST/DONOR ALLOCATION /TABLES ENDS HERE */
+
+
+ /*========= FOOTER STARTS HERE============ */
+ footer{
+  background-color:#D60505;
+  color: white;
+  margin-top:60px;
+  /* height: 820px; */
+  /* padding: 0px 60px; */
+}
+
+.where-to-donate{
+  display: flex;
+  flex-direction: column;
+}
+
+.list-items{
+
+}
+
+.footer-child-one{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #D60505; */
+
+}
+
+/* footer-icons */
+
+.footer-child-two{
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items:left; */
+   width: 90%; 
+   /* background-color: #D9D9D9; */
+}
+
+.privacy{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  /* margin-left: 100px; */
+}
+
+.logo{
+  align-items: flex-end;
+  /* background-color: fuchsia; */
+  /* margin-right: 300px; */
+  margin-top: 140px;
+}
+
+.s-donor{
+  color: #800020;
+  /* margin-right: 80px; */
+}
+
+.donate{
+  font-size:20px;
+  font-weight:bolder;
+  /* margin-bottom: 100px; */
+  /* background-color: #D60505; */
+  padding-left: 30px;
+  margin-top: 20px;
+
+}
+
+.copy-right{
+  font-size: 10px;
+  /* margin-left: 20px; */
+  /* height: 200px; */
+  margin-top: 75px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+ul{
+  /* margin-bottom: 200px; */
+  list-style-type: none;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  /* text-align:left; */
+  /* background-color:aqua; */
+  margin-right: 100px;
+  
+}
+
+.donate-two{
+  font-size:10px;
+  font-weight: bold;
+}
+
+
+.socials{
+  /* background-color: #00003E; */
+  display: flex;
+  width: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  /* margin-top: 50px; */
+
+}

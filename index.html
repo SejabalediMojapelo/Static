@@ -1,0 +1,525 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive Navbar</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  
+  
+
+  <div class="topnav">
+    <div id='nav'>
+      <img src="./images/logo.png" id="logo"  />
+    </div>
+      
+    <a class="active" href="/index.html">Home</a>
+    <a href="moreInfo.html">information</a>
+    <a href="./following pages/registration-admin1.html">Admin Page</a>
+    <a href="following pages/registration.html">Registration</a>
+    <a href="following pages/login.html">Login</a>
+    <a href="#contact-us-2">Contact</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  
+  
+
+<!--=================First Container Start=================-->
+
+
+
+   
+
+    <br>
+
+        <!--NAVIGATION BARRRR-->
+     
+
+        
+        
+  
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+  
+
+
+
+  <!-- Frist container img/paragraph -->
+
+  <div class="popup">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+
+    <center>
+      <h2>Hello and Welcome</h2>
+    </center>
+    
+
+    <script>
+
+      var today = new Date();
+      var hours = today.getHours();
+      var greeting;
+      
+   
+      
+          
+          // alert(greeting + "  Welcome to our page");
+
+          var today = new Date();
+var hourNow = today.getHours;
+var greeting;
+
+if (hourNow > 18){//6:00 pm
+    greeting = "Good afternoon";
+    
+
+}else if (hourNow > 12){//12:00 pm
+    greeting = "Good evening";
+
+}else if (hourNow > 0 ){//12:00 midnight
+    greeting = "Good morning";
+}else{
+    greeting = today;
+}
+
+document.write('<h3> ' + greeting + '</h3>');
+var continer = document.getElementById('container');
+var button=document.getElementById('close');
+
+button.click(function(e){
+    container.hide();
+}
+)
+      
+        </script>
+  </div>
+
+  
+
+  <div class="containar">
+
+    <div>
+     <img class="img-one" src="./images/BACKGROUNd arm.JPG">
+     <br>
+     
+    </div>
+         
+
+         <center><i><b><u><h1>About Us:</h1></u></b></i></center>
+                
+         <br>
+             <p class="text-label">SOCIAL DONORS</p>
+             <p id="first-para">
+             Social Donor is a non-profit organization; therefore, ownership of its assets does not belong to its members.
+             In the event that SANBS ceases to exist, its assets must be transferred to an organization with similar purposes and objectives. <br><br>
+             Social Donor provides an essential service in South Africa and is ranked among the best in the world for blood and blood products
+              delivery, as well as  research and training provided. 
+             Social Donor operates throughout South Africa, with the exception of the Western Cape. 
+             Social Donor is also considered a key player in providing assistance to countries in the SADC region.
+
+
+             
+ 
+             <br><br>
+
+         </p>
+     </div>
+     <svg width="108px" height="128px" viewBox="0 0 54 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path class="beat-loader" d="M0.5,38.5 L16,38.5 L19,25.5 L24.5,57.5 L31.5,7.5 L37.5,46.5 L43,38.5 L53.5,38.5" id="Path-2" stroke-width="2" sketch:type="MSShapeGroup"></path>
+      </g>
+    </svg>
+    
+    
+    
+    <br><br>
+
+
+    <!--================Second Container Start=================-->
+    <div class="con-two">
+       <center><i><b><u><h1>About Blood:</h1></u></b></i></center> 
+      
+       <div class="img-con">
+          
+
+               <div>
+                   <img class="img-two" src="./images/BLOOD CELL2.JPG">
+                   <p class="text-label"> About Blood</p>
+                  
+               </div>
+               
+               <div>
+                <img class="img-two"src="./images/Images/Blood donor.jpg"    >
+                   <p class="text-label">Benefits</p>
+               </div>
+               
+               <div>
+                   <img class="img-two"src="./images/Images/closeup-blood-tube-test.jpg"    >
+                   <p class="text-label">Donating Blood</p>
+               </div>
+          
+       </div>
+
+<center>
+       
+    
+       <!-- Second Container End -->
+       <br><br>
+
+          <!-- Trigger/Open The Modal -->
+          <button id="myBtn">More Information</button>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+              
+          <!-- Modal content -->
+          <div class="modal-content">
+          <span class="close">&times;</span>
+
+          <div class="side-info">
+              <center><i><b><u><h1>About Blood</h1></u></b></i></center> 
+              <p id="first-para">Unlike madication,blood cannot be manufactured.Healthy
+                  donors are the only source of blood for those who need it.
+                  If it was not for blood donors,life saving medical treatement for 
+                  people with life threating diseases would not be possible.
+              </p>
+              <img class="img-two"src="images/lungs.jpg"    >
+              <br><br>
+              <p id="first-para">
+              Blood is essential for life. Blood circulates in our body and delivers essential substances such as oxygen and nutrients to the cells of the body.
+               It also carries metabolic waste  away from the cells themselves. There is no substitute for blood. 
+               Generous blood donors are the sole source of blood for patients in need of  blood transfusions.
+              </p>
+  
+              <br><br>
+
+              <center><i><b><u><h1>Benefits</h1></u></b></i></center>
+              <p id="first-para"><b>Free health checkup:</b>
+                  <br>
+                  In order to give blood, you’re required to undergo a health screening. 
+                  A trained staff member performs this checkup. They’ll check your:
+                  
+                  <ol class="bullets">
+                      <li> pulse</li>
+                      <li>blood pressure</li>
+                      <li>body temperature</li>
+                      <li>hemoglobin levels</li>
+                  </ol>
+                 
+                  <br>
+              </p>
+              <center><i><b><u><h1>Benefits</h1></u></b></i></center>  
+              <p id="first-para">  
+                  This free mini-physical can offer excellent insight into your health. 
+                  It can effectively detect problems that could indicate an underlying medical condition or risk factors for certain diseases.
+                  
+                  Your blood is also tested for several diseases. <bt></bt>These include:
+                 <ol class="bullets">
+                 <li>hepatitis B</li> 
+                 <li>hepatitis C</li>
+                 <li> HIV</li>
+                 <li> West Nile virus</li>
+                 <li>syphilis</li>
+                 <li>Trypanosoma cruzi</li>
+                  
+                 </ol> 
+                  
+              </p>
+              <img class="img-two"src="images/lungs2.jpg"  >
+              <br>
+              <center><i><b><u><h1>Donating Blood</h1></u></b></i></center>  
+              <br>
+              <p id="first-para">  
+              You don't need a special reason to give blood. You just need your own reason.
+              Some of us give blood because:
+              <br>
+              <ol class="bullets">
+                  <li>We were asked by a friend.</li>
+                  <li> Some know that a family member or a friend might need blood some day.</li>
+                  <li> Some believe it is the right thing to do.</li>
+                  <li> Some do it for the free cookies and juice.</li>
+              </ol>
+            
+            <b>  <i>Everyone enjoys the great feeling of helping save lives!</i></b>
+             <br>
+              </p>
+             
+             <p id="first-para">
+              <b>What to Expect at Your Donation:</b>
+              <br><br>
+              <u>Registration:</u> <br>
+               You will sign in, show an ID, and be asked to read some required information.
+              
+               <br><br>
+              <u> Health History and Mini-Physical :</u><br>
+               Answer some questions online or in a private interview,
+                and receive a general health check. 
+                The results of your mini-physical will be available in your online blood donor account or on the Blood Donor App.
+
+                <br><br>
+               <u>The Donation:</u> <br> 
+                 You'll be seated comfortably while a pint of blood is drawn. 
+                The actual donation only takes 8-10 minutes.
+
+                <br><br>
+
+               <u> Refreshment and Recovery :</u><br>
+                After donating,
+                 you can enjoy a snack and a drink for 10-15 minutes before resuming your day. 
+                The entire donation process takes about an hour.
+
+                <br><br>
+               <u>Testing :</u> <br>
+                Your blood is tested and sent to a patient in need.
+             </p>
+            
+             <img class="img-two"src="./images/BACKGROUNd arm.jpg"  >
+             
+
+
+</div>
+              
+          
+<br>
+         
+          </div>
+          </div>
+          </center>
+
+<br><br>
+
+
+</div>
+
+
+   
+    <!-- java script for the modal button -->
+<script>
+    // Get the modal
+    var modal = document.getElementById ("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+
+
+  <!-- ===================Third Container Start======== -->
+  
+<br><br>
+<!-- where to donat -->
+<div class="contact-us1" >
+  
+  <div class="cont-one1">
+   
+      <br>
+      <center><i><b><u><h1 class="">Where To Donate:</h1></u></b></i></center> 
+    <p class="third-para">  At present, only one in every approximate 140 people are blood donors.This means the nation is almost always
+      close to running out of blood stocks, placing thousands of lives at risk every single day.<br><br>
+      Moreover with Social Donors aims to collect an average of 3000 units of blood every day nationally.
+      It is through planned,
+       sustainable blood drives at companies, organisations and institutions that we are able to achieve this collection target
+
+<br><br>
+     Blood drives are used by many companies as a Corporate Social Investment activity to show that they are actively involved in
+    impacting on the lives of South Africans.<br><br>
+    
+    </p>
+  </div>
+
+  <div class="cont-two1"  id="Location">
+    <div class="img-sub1">
+       
+      <center>
+        <a href="https://sanbs.org.za/donor-centres/" ><img class="img-three" src="./images/map2.png"> <center><h1 class="click-text">click me</h1></center> </a>     
+           
+      </div>
+  </div>
+</div>
+
+<br><br>
+  <!-- =============sixth Container Start ================== -->
+  <div class="contact-us" id="contact-us-2">
+    <div class="cont-one">
+       <h1 class="conact">Contact Us On:</h1> 
+        <br>
+      <p class="third-para">  South African National Social Donors
+        <br>
+        <br>
+        22 Waaihoek Str, Roodepoort,2092
+        <br>
+        <br>
+        Tell:011 761 900
+        <br>
+        <br>
+        Email:Customerservices@SocialDoner.org.za
+      </p>
+    </div>
+
+    <div class="cont-two">
+        <h1 class="conact">  Book A Drive:</h1>
+        <br>
+        <p class="third-para">Tell:0700 11 9042
+            <br>
+            <br>
+            Mon-Fri: 07:00-17:00
+            <br>
+            <br>
+
+           Sat-Sun:08:00-13:00 
+        </p> 
+    </div>
+  </div>
+
+<br><br>
+
+  <!-- FOOTERRR -->
+<footer>
+  <div class="footer-child-one">
+    <div class="where-to-donate">
+        <div>
+            <P class="donate">WHERE TO DONATE</P><br>
+        </div>
+
+        <div>
+            <ul>
+                <li>Donor Centre</li><br>
+                <li>Plasma & Platelets</li><br>
+                <li>Blood Drives</li><br>
+                <li>Blood Drives</li><br>
+
+            </ul>
+        </div>
+
+    </div>
+    
+    <div class="donors">
+        <div>
+            <P class="donate">DONORS</P><br>
+        </div>
+
+        <div>
+            <ul>
+                <li >Who Can Donate?</li><br>
+                <li >Why Donate Blood?</li><br>
+                <li >Donation process</li><br>
+                <li >Can I Save 3 Lives Today</li><br>
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="about-blood">
+        <div>
+            <P class="donate">ABOUT BLOOD</P><br>
+        </div>
+
+        <div>
+            <ul>
+                <li>Blood Types</li><br>
+                <li>Sitemap</li><br>
+                <li>Blood Types</li><br>
+            </ul>
+        </div>
+    </div>
+    <div class="services">
+        <div>
+           <b>  <P class="donate">SERVICES</P><br></b>
+        </div>
+
+        <div>
+            <ul>
+                <li>Blood Products</li><br>
+                <li>Clinical Service</li><br>
+                <li>Proficiency Testing(EQA)</li><br>
+                <li>Product Price List</li><br>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+   
+</div>
+
+<!-- footer  icons -->
+<div class="footer-child-two">
+
+
+    <!-- <div id="subscribe">
+        <div>
+            <P class="to-our-news">Subscribe To Our News:</P>
+        </div>
+
+        <div>
+            <input class="enter-your-email" type="text" placeholder="Enter Your Email"><br>
+            <button Class="subscribe-button">Subscribe</button>
+
+
+        </div>
+        <p class="terms-of-use">By Subscribing you are confirming<br> that you have read and accept our<br> <em>Terms of Use</em></p>
+    </div> -->
+
+    <div class="logo">
+        <img src="./images/logo.pg">
+
+         
+    </div>
+    <!-- <h1 class="s-donor">SOCIAL DONORS</h1>  -->
+
+    <div class="privacy">
+        <div class="copy-right">
+            <p class="copy-w">Social Donors 2011-2021</p>
+        </div>
+
+        <div class="copy-right">
+            <p class="copy-w">terms & Conditions</p>
+        </div>
+
+        <div class="copy-right">
+            <p class="copy-w" >Privacy</p>
+        </div>
+
+        <div class="copy-right">
+            <p class="copy-w">US English</p>
+        </div>
+
+       
+
+
+    </div>
+
+</div>
+
+</footer>
+  
+</body>
+</html>
